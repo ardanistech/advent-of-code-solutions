@@ -14,6 +14,6 @@ class AdventCoinsMiner
         return coin
       end
     end
-    return 'could not find a coin - soz'
+    raise 'could not find a coin - soz'
   end
 end
